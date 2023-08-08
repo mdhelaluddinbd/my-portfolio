@@ -1,0 +1,8 @@
+.card-Size{
+    height: 18rem;
+}
+
+  .cardStyle:hover{
+   
+    transform: scale(.9);
+  }
