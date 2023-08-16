@@ -2,3 +2,7 @@
     transform: scale(.9);
     
 }
+
+.textAlignment{
+    text-align:justify;
+}

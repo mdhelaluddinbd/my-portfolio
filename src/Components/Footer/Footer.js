@@ -10,15 +10,15 @@ const Footer = () => {
       <div className="row justify-content-between align-items-center ">
         <div className=" col-lg -4 col-md-6 col-sm-12 ">
           <NavbarBrand href="#home">
-            <span className="text-danger fw-bold fs-2">Coder</span>{" "}
-            <span className="text-success fw-bold">Life</span>
+            <span className="text-white fw-bold fs-2">Coder</span>{" "}
+            <span className="text-warning fw-bold">Life</span>
           </NavbarBrand>
         </div>
 
         <div className="col-lg -4 col-md-6 col-sm-12 mt-md-3">
-          <h4 className="text-primary">Social Link</h4>
+          <h4 className="text-primary text-start">Social Link</h4>
 
-          <div className="d-flex flex-column">
+          <div className="d-flex flex-column text-start">
             <a
               className="text-white fw-bold text-decoration-none"
               href="https://www.facebook.com/mdhelaluddin.info"
@@ -52,14 +52,14 @@ const Footer = () => {
 
         <div className="col-lg -4 col-md-6 col-sm-12 ">
           <div className=" d-flex flex-column justify-content-evenly  p-2">
-            <h4 className="text-primary ">Quick Link</h4>
-            <NavLink as={Link} to={"/about"} className="text-white fw-bold">
+            <h4 className="text-primary text-start">Quick Link</h4>
+            <NavLink as={Link} to={"/about"} className="text-white fw-bold text-start">
               About
             </NavLink>
-            <NavLink as={Link} to={"/project"} className="text-white fw-bold">
+            <NavLink as={Link} to={"/project"} className="text-white fw-bold text-start">
               Projects
             </NavLink>
-            <NavLink as={Link} to={"/contract"} className="text-white fw-bold">
+            <NavLink as={Link} to={"/contract"} className="text-white fw-bold text-start">
               Contract
             </NavLink>
           </div>

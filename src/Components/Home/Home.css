@@ -2,3 +2,16 @@
     transform:scale(1.1,1.1);
     background-color: lightcyan;
 }
+
+.hoverImage:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.textAlignment{
+    text-align:justify;
+}
+
+.bgColor{
+    background-color: tomato;
+}

@@ -43,11 +43,11 @@ const Contract = () => {
 
           <div className="col text-start ">
            
-            <form action="" className="d-flex flex-column">
-                <input className="mt-3 fs-4 border p-1 bg-light rounded" type="text" placeholder="Enter Your Name" />
-                <input className="mt-3 fs-4 border p-1 bg-light rounded" type="email" placeholder="Enter Your Email" />
-                <input className="mt-3 fs-4 border p-1 bg-light rounded" type="email" placeholder="Enter Your Subject" />
-                <input className="mt-3 fs-4 border p-1 bg-light rounded" type="text" name="message" id="" style={{height:"5rem"}}/>
+            <form action="" className="d-flex flex-column p-3 border rounded bg-light">
+                <input className="mt-3 fs-4 border p-1 bg-light rounded bg-white" type="text" placeholder="Enter Your Name" />
+                <input className="mt-3 fs-4 border p-1 bg-light rounded bg-white" type="email" placeholder="Enter Your Email" />
+                <input className="mt-3 fs-4 border p-1 bg-light rounded bg-white" type="email" placeholder="Enter Your Subject" />
+                <input className="mt-3 fs-4 border p-1 bg-light rounded bg-white" type="text" name="message" id="" style={{height:"5rem"}}/>
                 <input className="btn btn-primary mt-3 fs-4 border p-1  rounded" type="submit" value="Submit" />
             </form>
           </div>

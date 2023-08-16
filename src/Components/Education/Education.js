@@ -22,7 +22,7 @@ function Education() {
               <span>Green University of Bangladesh </span>
             </p>
             <p className="fs-5">
-              <span className="fw-bold">Result:</span> <span>Appeared </span>
+              <span className="fw-bold">Result:</span> <span> CGPA 2.46 out of 4</span>
             </p>
             <p className="fs-5">
               <span className="fw-bold">Passing Year:</span> <span>2023</span>
@@ -48,7 +48,7 @@ function Education() {
           </p>
           <p className="fs-5">
             <span className="fw-bold">Result:</span>{" "}
-            <span>CGPA:3.13 out of 4 </span>
+            <span>CGPA 3.13 out of 4 </span>
           </p>
           <p className="fs-5">
             <span className="fw-bold">Passing Year:</span> <span>2018</span>
@@ -71,7 +71,7 @@ function Education() {
           </p>
           <p className="fs-5">
             <span className="fw-bold">Result:</span>{" "}
-            <span>CGPA:4.75out of 5 </span>
+            <span>CGPA 4.75out of 5 </span>
           </p>
           <p className="fs-5">
             <span className="fw-bold">Passing Year:</span> <span>2014</span>

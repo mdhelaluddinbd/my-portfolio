@@ -1,4 +1,5 @@
 import React from "react";
+import '../Projects.css';
 import ESDC from "../../../Assets/projects-images/ESD/2.PNG";
 import { Link } from "react-router-dom";
 
@@ -11,7 +12,7 @@ const ESDCDetails = () => {
 
       <div className="col-sm-12 col-md-6 ">
         <p className="mb-2   fw-bold bg-light  d-inline-block p-2 rounded border">Description:</p>
-        <p className=" text-start ">
+        <p className=" textAlignment ">
           The Emergency Service In Dhaka City web-based totally utility goals to
           provide a comprehensive platform for getting access to critical
           emergency services in Dhaka metropolis. The application specializes in

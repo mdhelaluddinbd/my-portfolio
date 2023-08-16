@@ -1,0 +1,15 @@
+.nav-color{
+    background: #2f2d86;
+}
+
+
+.navTest:hover{
+    transform: scale(.9);
+   text-decoration: underline;
+   text-decoration-color: yellow;
+    
+}
+
+.navbar-toggler{
+    background-color: #f7eeee;
+}

@@ -16,7 +16,7 @@ import SkyNewsDetails from "./Components/Projects/SkyNews/SkyNewsDetails";
 function App() {
   return (
     <div className="App">
-      <div className="container">
+      <div className="container ">
         <BrowserRouter>
           <NavigationBar></NavigationBar>
           <Routes>

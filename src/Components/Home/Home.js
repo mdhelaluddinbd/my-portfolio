@@ -10,11 +10,11 @@ import homeImg from '../../Assets/homeOne.png';
 
 const Home = () => {
   return (
-    <div className="container">
+    <div className="container ">
       <div className="container row mt-5">
         <div className=" col-lg-7">
-          <p className="fs-3 fw-bold">Welcome To My Portfolio</p>
-          <h1 className="bg-danger rounded text-white d-inline px-2">
+          
+          <h1 className="bgColor rounded text-white d-inline px-2">
             <span>
               <Typewriter
                 words={["Hi, I am Md.Helal Uddin"]}
@@ -32,7 +32,7 @@ const Home = () => {
             As a <span className="text-success">Frontend Developer</span>
           </p>
 
-          <p className="text-start fs-5 mt-5">
+          <p className="textAlignment fs-5 mt-5">
             I am an enthusiastic, self-motivated, reliable, responsible and hard
             working person. I am a mature team worker and adaptable to all
             challenging situations. I am able to work well both in a team
@@ -65,7 +65,7 @@ const Home = () => {
 
         <div className="col-lg-5">
           <img
-            className="img-fluid border border-5 shadow rounded rounded-circle  border-success  "
+            className="img-fluid   rounded   border rounded border-2 hoverImage "
             src={Image}
             alt=""
             srcset=""
@@ -81,8 +81,8 @@ const Home = () => {
         </div>
 
         <div className="col-sm-12 col-md-12 col-lg-4 mt-2">
-        <h4 className="">Importance of SDLC</h4>
-         <div className=" d-flex align-items-center justify-content-center">
+        <h4 className="text-start">Importance of SDLC</h4>
+         <div className=" d-flex align-items-start justify-content-start">
          <ul className="text-start">
           <li>Structured Approach</li>
           <li>Risk Management</li>
@@ -93,6 +93,19 @@ const Home = () => {
           <li>Flexibility and Adaptability</li>
          </ul>
          </div>
+         <h4 className="text-start">Front-End Technologies</h4>
+         <div className=" d-flex align-items-start justify-content-start">
+         <ul className="text-start">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Tailwind</li>
+          <li>JavaScript</li>
+          <li>Jquery</li>
+          <li>React.js</li>
+         
+         </ul>
+         </div>
+
         </div >
          
         </div>
